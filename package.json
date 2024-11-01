@@ -1,0 +1,14 @@
+{
+  "name": "poc-queue-via-rabbitmq",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun --filter '*' dev",
+    "build": "bun --filter * build",
+    "start": "bun --filter * start",
+    "test": "bun --filter * test"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
